@@ -1,4 +1,6 @@
-*, *::before, *::after { box-sizing: border-box; }
+*, *::before, *::after { 
+  box-sizing: border-box; 
+}
 
 .page {
   background-color: var(--bg-color);
@@ -23,6 +25,12 @@ a {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-a:hover { border-bottom: 1px solid currentColor; }
-a:focus { outline: none; }
-a:focus-visible { outline: 1px solid currentColor; }
+a:hover { 
+  border-bottom: 1px solid currentColor; 
+}
+a:focus { 
+  outline: none; 
+}
+a:focus-visible { 
+  outline: 1px solid currentColor; 
+}
