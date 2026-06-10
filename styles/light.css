@@ -1,27 +1,23 @@
 :root.theme-light {
   --bg-color: #FFF1F7;
+  --text-color: #353430;
   --accent-color: #FF8DCB;
-  --main-text-color: #353430;
-  --title-bg-color: #FF8DCB;
-  --title-text-color: #353430;
   --title-big-color: #FFC2E6;
-  --shadow-color: #FF8DCB;
+  --title-decor-text: #353430;
   --bg-image: url(../images/cover-image-light.png);
-}
-
-.theme-light .header__rec {
-  display: none;
+  --rec-decor-display: none;
+  --shadow-color: #FF8DCB;
 }
 
 @media (prefers-color-scheme: light) {
-  :root:not(.theme-dark) {
+  :root {
     --bg-color: #FFF1F7;
+    --text-color: #353430;
     --accent-color: #FF8DCB;
-    --main-text-color: #353430;
-    --title-bg-color: #FF8DCB;
-    --title-text-color: #353430;
     --title-big-color: #FFC2E6;
-    --shadow-color: #FF8DCB;
+    --title-decor-text: #353430;
     --bg-image: url(../images/cover-image-light.png);
+    --rec-decor-display: none;
+    --shadow-color: #FF8DCB;
   }
 }
