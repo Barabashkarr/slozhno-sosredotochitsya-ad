@@ -1,21 +1,27 @@
 :root.theme-light {
-  --bg-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --main-text-color: #353436;
-  --title-bg-color: #ff8dcb;
-  --title-text-color: #353436;
+  --bg-color: #FFF1F7;
+  --accent-color: #FF8DCB;
+  --main-text-color: #353430;
+  --title-bg-color: #FF8DCB;
+  --title-text-color: #353430;
+  --title-big-color: #FFC2E6;
+  --shadow-color: #FF8DCB;
   --bg-image: url(../images/cover-image-light.png);
 }
 
 .theme-light .header__rec {
-  display: none; /* В светлой теме REC не отображается по макету */
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root:not(.theme-dark) {
-    --bg-color: #fff1f7;
-    --accent-color: #ff8dcb;
-    --main-text-color: #353436;
+    --bg-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --main-text-color: #353430;
+    --title-bg-color: #FF8DCB;
+    --title-text-color: #353430;
+    --title-big-color: #FFC2E6;
+    --shadow-color: #FF8DCB;
     --bg-image: url(../images/cover-image-light.png);
   }
 }
